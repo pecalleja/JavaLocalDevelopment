@@ -1,7 +1,6 @@
 package org.example.arrays;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class TwoSum {
     public int[] solution(int[] numbers, int target){
