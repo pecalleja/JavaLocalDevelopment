@@ -14,5 +14,18 @@ public class TopKFrequentTest {
         int[] expected = {1, 2};
         assertArrayEquals(result, expected);
     }
-
+    @Test
+    public void case2() {
+        int[] numbers = {1};
+        int[] result = problem.solution(numbers, 1);
+        int[] expected = {1};
+        assertArrayEquals(result, expected);
+    }
+    @Test
+    public void case3() {
+        int[] numbers = {3,0,1,0};
+        int[] result = problem.solution(numbers, 1);
+        int[] expected = {0};
+        assertArrayEquals(result, expected);
+    }
 }
