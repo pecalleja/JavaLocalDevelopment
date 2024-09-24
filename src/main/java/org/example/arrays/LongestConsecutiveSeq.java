@@ -15,9 +15,7 @@ public class LongestConsecutiveSeq {
                     currentNum++;
                     currentStreak++;
                 }
-                if (currentStreak > longestStreak) {
-                    longestStreak = currentStreak;
-                }
+                longestStreak = Math.max(currentStreak, longestStreak);
             }
         }
         return longestStreak;

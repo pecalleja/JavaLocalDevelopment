@@ -19,4 +19,29 @@ class LongestConsecutiveSeqTest {
         Integer result = problem.solution(numbers);
         assertEquals(result, 9);
     }
+    @Test
+    public void case3() {
+        Integer[] numbers = {1};
+        Integer result = problem.solution(numbers);
+        assertEquals(result, 1);
+    }
+
+    @Test
+    public void case4() {
+        Integer[] numbers = {};
+        Integer result = problem.solution(numbers);
+        assertEquals(result, 0);
+    }
+    @Test
+    public void case5() {
+        Integer[] numbers = {-1, -2, -3, -4, -5, 1, 2};
+        Integer result = problem.solution(numbers);
+        assertEquals(result, 5);
+    }
+    @Test
+    public void case6() {
+        Integer[] numbers = {10, 30, 20};
+        Integer result = problem.solution(numbers);
+        assertEquals(result, 1);
+    }
 }
