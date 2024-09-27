@@ -2,6 +2,22 @@
 
 This is a Sandbox environment to practice my Java skills. I'm following the NeetCode roadmap. 
 
+### Execute the tests
+
+Execute all the tests:
+
+```shell
+mvn clean test
+```
+
+Execute one specific test:
+
+```shell
+mvn test -Dtest=org.example.arrays.ContainsDuplicateTest
+```
+
+
+### NeetCode roadmap
 The NeetCode roadmap is a super useful guide designed to help you master coding interviews. It lays out a clear, 
 step-by-step plan to learn important data structures and algorithms, starting from beginner-friendly concepts and 
 working up to more advanced ones. The idea is to give you a structured path to follow, with curated problems from 
