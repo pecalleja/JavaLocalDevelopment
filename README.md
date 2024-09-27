@@ -1,4 +1,4 @@
-# Java Local Development
+# Java Local Development ☕️
 
 This is a Sandbox environment to practice my Java skills. I'm following the NeetCode roadmap. 
 
@@ -57,7 +57,7 @@ graph TD
 
 ### Stack
 
-| Problem                                                                                            | Difficulty | Local Code Link                                                                                       |
+| Problem                                                                                            | Difficulty | Java Class                                                                                            |
 |----------------------------------------------------------------------------------------------------|------------|-------------------------------------------------------------------------------------------------------|
 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses)                               | Easy       | [ValidParentheses.java](src/main/java/org/example/stacks/ValidParentheses.java)                       |
 | [Min Stack](https://leetcode.com/problems/min-stack)                                               | Medium     | [MinStack.java](src/main/java/org/example/stacks/MinStack.java)                                       |
