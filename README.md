@@ -82,3 +82,4 @@ graph TD
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures)                             | Medium     | [DailyTemperatures.java](src/main/java/org/example/stacks/DailyTemperatures.java)                     |
 | [Car Fleet](https://leetcode.com/problems/car-fleet)                                               | Medium     | [CarFleet.java](src/main/java/org/example/stacks/CarFleet.java)                                       |
 | [Largest Rectangle In Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram)     | Hard       | [LargestRectangleInHistogram.java](src/main/java/org/example/stacks/LargestRectangleInHistogram.java) |
+
